@@ -10,7 +10,7 @@ export const personalData = {
   location: "Argentina", //
   linkedin: "https://www.linkedin.com/in/miguel-paredes-it/", //
   github: "https://github.com/MiguelParedes24", //
-  summary: "Soy un Profesional Analista Programador Universitario graduado, con sólida base en desarrollo web FullStack. Me especializo en tecnologías como JavaScript, PHP, Laravel, React y bases de datos SQL. Busco aportar soluciones innovadoras y eficientes en entornos dinámicos."
+  summary: "Soy un Profesional Analista Programador Universitario graduado, con sólida base en desarrollo web FullStack. Me especializo en tecnologías como JavaScript, PHP, Laravel, React y bases de datos SQL. Busco aportar soluciones innovadoras y eficientes en entornos dinámicos. Actualmente, estoy en búsqueda de oportunidades laborales para aplicar mis habilidades y seguir creciendo profesionalmente." //
 };
 
 export const skills = [
@@ -33,24 +33,30 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Resto Aurelion", //
+    desc: "Sistema de gestión de restaurante, el cual permite administrar métricas de ventas, mesas, menús, pedidos y el inventario desde una interfaz web separada en vistas según el rol del usuario. Aún se encuentra en desarrollo.", //
+    tech: ["Angular", "TypeScript", "C# (.NET Core)", "SCSS", "SQLServer"], //
+    icon: Layout,
+  },
+  {
     title: "CaesarTalk", //
     desc: "Sistema web de mensajería con cifrado César para el envío seguro de mensajes.", //
     tech: ["PHP", "Laravel", "MySQL", "JavaScript", "TailwindCSS"], //
     icon: Code2,
-    demo: "https://caesartalk-demo.onrender.com", 
+    demo: "https://caesartalk-demo.onrender.com",
     repo: "https://github.com/MiguelParedes24/CaesarTalk",
 
     credentials: [
       { label: "Usuario", user: "usuario_demo", pass: "Demo1234" },
-      { label: "Admin Bot", user: "admin_bot", pass: "AdminSecret123" }
-    ]
+      { label: "Admin Bot", user: "admin_bot", pass: "AdminSecret123" },
+    ],
   },
   {
     title: "Busify", //
     desc: "Sistema de gestión de transporte escolar. Colaboración en módulo de administración y visualización de datos.", //
     tech: ["PHP", "Laravel", "MySQL", "Bootstrap", "JavaScript"], //
-    icon: Layout
-  }
+    icon: Layout,
+  },
 ];
 
 export const experience = [
